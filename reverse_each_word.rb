@@ -13,7 +13,7 @@
 def reverse_each_word(sentence)
   newarr=sentence.split(" ")
 
-  newarr.collect do {|word| word.reverse}
+  newarr.collect{|word| word.reverse}
   end
    newarr.join(" ")
   end
