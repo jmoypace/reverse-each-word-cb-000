@@ -12,8 +12,8 @@
 #end
 def reverse_each_word(sentence)
   newarr=sentence.split(" ")
-  newarr1=[]
+
   newarr.collect do {|word| word.reverse}
   end
-   newarr1.join(" ")
+   newarr.join(" ")
   end
