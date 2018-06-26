@@ -13,5 +13,4 @@
 def reverse_each_word(sentence)
   newarr=sentence.split(" ")
   newarr.collect{|word| word.reverse}.join(" ")
-
 end
